@@ -1,0 +1,37 @@
+{
+  "name": "giannis-logger",
+  "version": "1.0.0",
+  "description": "just a simple json logger",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janburzinski/giannis-logger.git"
+  },
+  "author": "Jan Burzinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janburzinski/giannis-logger/issues"
+  },
+  "homepage": "https://github.com/janburzinski/giannis-logger#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "keywords": [
+    "logger",
+    "typescript",
+    "logging",
+    "nodejs"
+  ],
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
